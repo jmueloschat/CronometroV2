@@ -1,0 +1,47 @@
+* {
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container h1{
+    color: blueviolet;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    font-size: 80px;    
+}
+
+.time {
+    flex-direction: center;
+    color: rgb(139, 78, 236);
+    margin-right: 10px;
+    min-width: 90px;
+}
+
+.separator {
+    color: black;
+    font-size: 60px;
+}
+
+.buttons {        
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    flex-direction: column; 
+    margin-right: 10px;   
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btnPause {
+    display: none;
+}
